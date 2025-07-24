@@ -1,3 +1,4 @@
+// App.js
 import React from 'react';
 import ProductList from './components/ProductList';
 import Cart from './components/Cart';
@@ -7,7 +8,9 @@ import CouponInput from './components/CouponInput';
 const App = () => {
   return (
     <div>
-      <h1>Shopping Cart Redux</h1>
+      <nav className="navbar-expand-lg">
+        <h1 className="text-center">Shopping Cart Redux</h1>
+      </nav>
       <ProductList />
       <CouponInput />
       <Cart />
